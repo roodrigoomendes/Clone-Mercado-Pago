@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap%27');
+
+:root{
+    font-family: 'Raleway', sans-serif;
+    --principal-blue: #009EE3;
+    --botton-blue: rgba(71, 154, 209, 0.15);
+    --Light-02: #F5F5F5;
+    --Light-03: #E5E5E5;
+    --Dark-04: #C5C5C5;
+    --Dark-03: #666666;
+}
+
+
+body{
+
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li:nth-child(2){
+    margin-left: 4rem;
+    margin-right: 2.5rem;
+}
+
+ul li:last-child{
+    padding: 0.625rem 1.5rem;
+    border-left: 1px solid ;
+    margin-left: 1rem;
+}
+
+
+button{
+    border: none;
+    background: var(--principal-blue);
+    padding: 0.625rem 1.5rem;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+ul li:nth-child(3) > button{
+    background: var(--botton-blue);
+    color: var(--principal-blue);
+    margin-right: 1rem;
+}
+
+main{
+    background: var(--Light-02);
+
+}
+
+.faixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8125rem 0;
+}
+
+.faixa> img{
+    width: 50px ;
+}
+
+.banner{
+    background-image: url(./assets-mercadopago/3c274750861afa486b9c\ 1.png);
+    height: 30rem;
+    color: #FFF;
+}
+
+.bannerDescricao{
+    padding-left: 7.5rem;
+    padding-top: 7.125rem;
+}
+
+.bannerDescricao> h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    width: 21rem;
+    margin-bottom: 1rem;
+}
+
+.bannerDescricao > p{
+    margin-bottom: 0.5rem;
+}
+
+.contato{
+    display:flex;
+    align-items: center;
+    background-color: #FFF;    
+    padding: 18px;
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.contato > img{
+    width: 33px;
+    height: 23px;
+}
+
+.contato > input{
+    border-bottom: 1px solid var(--Dark-03);
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-right: 1.25rem ;
+    margin-left: 0.75rem;
+}
+
+.contato > button{
+    padding: 0.5rem 1rem;
+    background: var(--Dark-04);
+    color: var(--Dark-03);
+    margin: 0;
+}
+
+.opcoes {
+     display: flex;
+     justify-content: space-around;
+}
+
+.card{
+    position: relative;
+    top: -80px;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    background: #FFF;
+    border: 2px solid var(--Light-03);
+    border-radius: 8px;
+}
+
+.card > img{
+
+    margin-right: 1.5rem;
+}
+
+.card div{
+    width: 16.375rem;
+}
+
+.card div > h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+}
+
+.card div > p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.card div > button {
+    width: 100%;
+    padding:16px 0;
+}
+
+footer{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #E5E5E5;
+    padding: 0 36px ;
+}
+
+footer > img {
+    width: 142.01px;
+    height: 37px;    
+}
+
